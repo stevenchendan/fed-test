@@ -1,9 +1,15 @@
 <div class="card-holder">
-  <div *ngFor="let card of tempArray; let i = index" [ngClass]="{'card-1': i === 0}">
-    <a class="card">
+  <div *ngFor="let card of cardInfo; let i = index" [ngClass]="{'card-1': i === 0}">
+    <a href="{{card.link}}" class="card">
       <article>
-        <h1>1</h1>
-        <span>1</span>
+        <h1>{{card.title}}</h1>
+        <p>{{card.description}}</p>
+        <div *ngIf="card.documentSize">
+          <span class="document bottom-bar"></span>
+          <span class="bottom-bar">PDF</span>
+          <span class="bottom-bar">{{card.documentSize}}</span>
+        </div>
+        <div [ngClass]="{'arrow-down': card.documentSize, 'arrow-right': !card.documentSize}"></div>
       </article>
     </a>
   </div>
