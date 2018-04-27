@@ -16,9 +16,9 @@ For example:
 
 If you still cannot run this project please send me an email: liangchendan@icloud.com
 
+This is the preview of the website:
 
-
-
+https://github.com/stevenchendan/fed-test/blob/master/Capture.PNG
 
 # Languages
 
