@@ -1,4 +1,12 @@
 # How To Run
+
+###Production Version
+
+Go to dist folder and double click the index.html
+
+
+###Develop Version
+
 Step 1:
 
     npm install
@@ -8,6 +16,7 @@ Stap 2:
     npm start 
 Or
     ng serve
+
 If your 4200 port is used by other program, please use --port to change it. 
 
 For example:
