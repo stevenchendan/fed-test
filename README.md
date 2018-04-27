@@ -1,3 +1,34 @@
+# How To Run
+Step 1:
+
+    npm install
+
+Stap 2:
+
+    npm start 
+Or
+    ng serve
+If your 4200 port is used by other program, please use --port to change it. 
+
+For example:
+
+    ng serve --port 4201
+
+If you still cannot run this project please send me an email: liangchendan@icloud.com
+
+
+
+
+
+# Languages
+
+* TypeScript
+* Angular
+* HTML
+* CSS
+
+
+
 # Carter FED Test
 Code test for potential Carter front-end developers
 
