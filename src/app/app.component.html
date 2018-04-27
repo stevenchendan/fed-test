@@ -1,1 +1,10 @@
-<div>test</div>
+<div class="card-holder">
+  <div *ngFor="let card of tempArray; let i = index" [ngClass]="{'card-1': i === 0}">
+    <a class="card">
+      <article>
+        <h1>1</h1>
+        <span>1</span>
+      </article>
+    </a>
+  </div>
+</div>

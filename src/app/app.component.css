@@ -1,0 +1,31 @@
+.card-holder {
+  font-family: 'Open Sans', sans-serif;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: grid;
+  max-width: 1240px;
+  margin: 0 auto;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+}
+
+.card {
+  min-height: 450px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: #444;
+  position: relative;
+  transition: all .1s ease-in;
+}
+
+.card:hover {
+  top: -3px;
+  box-shadow: 0 4px 5px rgba(5, 5, 5, 0.2);
+}
+
+.card-1 {
+  grid-column: 1/ span 2;
+  background: linear-gradient(135deg, #00a4c4, #0ad192);
+}
+
